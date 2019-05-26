@@ -1,0 +1,27 @@
+{
+    "name": "root/zeus",
+    "type": "project",
+    "authors": [
+        {
+            "name": "wxu",
+            "email": "23shuaixw@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Isites/swoft.git"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"": "src"},
+        "psr-4" : {
+            "Zeus\\" : "src"
+        }
+    },
+    "require": {
+        "grace/swoft": "dev-master",
+        "doctrine/orm": "2.5.14"
+    }
+}
